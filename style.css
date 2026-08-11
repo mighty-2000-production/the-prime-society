@@ -90,3 +90,13 @@ button {
 footer {
     font-size: 22px;
 }
+nav {
+    padding: 30px;
+}
+
+
+nav a {
+    font-size: 35px;
+    margin: 20px;
+    font-weight: bold;
+}
