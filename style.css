@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #080808;
+    color: white;
+    text-align: center;
+}
+
+
+header {
+    background: #111;
+    padding: 40px 20px;
+    border-bottom: 3px solid red;
+}
+
+
+header h1 {
+    color: gold;
+    font-size: 40px;
+    letter-spacing: 3px;
+}
+
+
+header p {
+    font-size: 18px;
+}
+
+
+
+nav {
+    background: black;
+    padding: 15px;
+}
+
+
+nav a {
+    color: red;
+    text-decoration: none;
+    margin: 10px;
+    font-weight: bold;
+}
+
+
+
+.welcome {
+    padding: 40px 20px;
+}
+
+
+.welcome h2 {
+    color: gold;
+}
+
+
+
+button {
+    background: red;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 30px;
+    font-size: 16px;
+}
+
+
+
+.stations {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    padding: 40px 20px;
+}
+
+
+
+.station {
+    background: #151515;
+    border: 2px solid red;
+    border-radius: 20px;
+    padding: 25px;
+    width: 300px;
+}
+
+
+
+.station h2 {
+    color: gold;
+}
+
+
+
+.station p {
+    font-size: 17px;
+}
+
+
+
+.latest {
+    background: #111;
+    padding: 30px;
+}
+
+
+
+.latest h2 {
+    color: gold;
+}
+
+
+
+footer {
+    background: black;
+    padding: 20px;
+    color: #aaa;
+  }
