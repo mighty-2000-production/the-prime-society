@@ -27,6 +27,7 @@
 
 
 
+
 <nav>
 
 <a href="#">Home</a>
@@ -46,18 +47,13 @@
 <h2>Your Home of News, Entertainment & Inspiration</h2>
 
 <p>
-Bringing you fresh information, engaging conversations,
-music, stories and world-class entertainment.
+Bringing you fresh information, music, stories,
+interviews and quality entertainment.
 </p>
 
 
-<button>
-🎧 Listen Live
-</button>
-
-
-<button>
-📺 Watch Live
+<button onclick="liveMessage()">
+🔴 Join Live Broadcast
 </button>
 
 
@@ -73,22 +69,23 @@ music, stories and world-class entertainment.
 <div class="station-card">
 
 
-<h2>📻 MEGA PRIME RADIO</h2>
+<h2>📻 Mega Prime Radio</h2>
 
 <h3>Sauti ya Habari na Burudani</h3>
 
 
 <p>
-Your destination for news, music, interviews and entertainment.
+News, music, interviews and entertainment.
 </p>
 
 
-<button>
-ENTER RADIO
+<button onclick="radioLive()">
+🎧 Listen Live
 </button>
 
 
 </div>
+
 
 
 
@@ -96,25 +93,27 @@ ENTER RADIO
 <div class="station-card">
 
 
-<h2>📺 MEGA PRIME TELEVISION</h2>
+<h2>📺 Mega Prime Television</h2>
 
 <h3>Fresh Eyes for Every News</h3>
 
 
 <p>
-Your source for breaking news, programs and special reports.
+Breaking news, programs and special reports.
 </p>
 
 
-<button>
-ENTER TELEVISION
+<button onclick="tvLive()">
+📺 Watch Live
 </button>
 
 
 </div>
 
 
+
 </section>
+
 
 
 
@@ -122,16 +121,26 @@ ENTER TELEVISION
 
 <section class="breaking">
 
-
 <h2>🚨 BREAKING NEWS</h2>
 
 <p>
 Welcome to The Prime Society newsroom.
-Stay connected for the latest updates.
+Fresh stories and updates coming soon.
 </p>
 
 
+<button onclick="showNews()">
+📰 View News
+</button>
+
+
 </section>
+
+
+
+
+
+
 <section class="programs">
 
 <h2>⭐ Featured Programs</h2>
@@ -139,10 +148,10 @@ Stay connected for the latest updates.
 
 <div class="program-card">
 
-<h3>📰 Prime News Hour</h3>
+<h3>Prime News Hour</h3>
 
 <p>
-Daily updates, current affairs and important stories.
+Daily news and current affairs.
 </p>
 
 </div>
@@ -151,29 +160,29 @@ Daily updates, current affairs and important stories.
 
 <div class="program-card">
 
-<h3>🎤 Exclusive Interviews</h3>
+<h3>Exclusive Interviews</h3>
 
 <p>
-Conversations with inspiring personalities.
+Conversations with inspiring people.
 </p>
 
 </div>
 
 
 
-
 <div class="program-card">
 
-<h3>🎵 Entertainment Zone</h3>
+<h3>Entertainment Zone</h3>
 
 <p>
-Music, celebrities and lifestyle entertainment.
+Music, celebrities and lifestyle.
 </p>
 
 </div>
 
 
 </section>
+
 
 
 
@@ -183,19 +192,19 @@ Music, celebrities and lifestyle entertainment.
 
 <h2>🎙 Our Presenters</h2>
 
-
 <div class="presenter-box">
 
-<h3>Meet The Prime Society Team</h3>
+<h3>The Prime Society Team</h3>
 
 <p>
-Professional voices bringing you quality information and entertainment.
+Bringing you trusted voices and quality programs.
 </p>
 
 </div>
 
-
 </section>
+
+
 
 
 
@@ -206,11 +215,11 @@ Professional voices bringing you quality information and entertainment.
 <h2>📞 Connect With Us</h2>
 
 <p>
-Follow The Prime Society and stay updated.
+Follow and interact with The Prime Society.
 </p>
 
 
-<button>
+<button onclick="contactUs()">
 Contact Us
 </button>
 
@@ -221,23 +230,24 @@ Contact Us
 
 
 
-<footer>
 
+
+<footer>
 
 <h2>THE PRIME SOCIETY</h2>
 
-
 <p>
-© 2026 The Prime Society. All Rights Reserved.
+© 2026 The Prime Society
 </p>
-
 
 <p>
 A Mighty Productions Media Project
 </p>
 
-
 </footer>
+
+
+
 
 
 <script src="script.js"></script>
