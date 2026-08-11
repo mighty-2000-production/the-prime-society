@@ -221,4 +221,110 @@ footer {
     padding: 40px 20px;
     color: #aaa;
 }
+.main-header {
+    padding: 90px 20px;
+    background: linear-gradient(black, #220000);
+    border-bottom: 5px solid red;
+}
+
+
+.main-header h1 {
+    font-size: 60px;
+    color: gold;
+    letter-spacing: 6px;
+}
+
+
+.live-badge {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 25px;
+    background: red;
+    border-radius: 30px;
+    font-weight: bold;
+}
+
+
+
+.hero-section {
+    padding: 70px 20px;
+    background: #111;
+}
+
+
+
+.hero-section h2 {
+    color: gold;
+    font-size: 38px;
+}
+
+
+
+.stations {
+    padding: 60px 20px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+
+
+.station-card {
+    background: #111;
+    width: 380px;
+    padding: 40px;
+    border-radius: 25px;
+    border: 3px solid red;
+}
+
+
+
+.station-card h2 {
+    color: gold;
+}
+
+
+
+.breaking {
+    background: red;
+    padding: 30px;
+}
+
+
+
+.programs {
+    padding: 60px 20px;
+}
+
+
+
+.program-card {
+    display: inline-block;
+    width: 280px;
+    margin: 15px;
+    padding: 25px;
+    background: #111;
+    border: 2px solid gold;
+    border-radius: 20px;
+}
+
+
+
+.presenters,
+.contact {
+    padding: 60px 20px;
+    background: #080808;
+}
+
+
+
+.presenter-box {
+    background: #111;
+    padding: 30px;
+    border-radius: 20px;
+    border: 2px solid red;
+    max-width: 500px;
+    margin: auto;
+}
 
