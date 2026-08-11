@@ -173,7 +173,47 @@ button:hover {
 .news {
     padding: 50px 20px;
 }
+.broadcast-box {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
 
+
+.radio-live,
+.tv-live {
+    background: #000;
+    padding: 30px;
+    border-radius: 20px;
+    border: 2px solid red;
+    width: 350px;
+}
+
+
+.radio-live h3,
+.tv-live h3 {
+    color: gold;
+}
+
+
+audio {
+    width: 100%;
+}
+
+
+
+.screen {
+    background: #222;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: red;
+    font-size: 22px;
+    font-weight: bold;
+    border-radius: 15px;
+    }
 
 
 footer {
@@ -181,3 +221,4 @@ footer {
     padding: 40px 20px;
     color: #aaa;
 }
+
