@@ -1,55 +1,74 @@
+* {
+    box-sizing: border-box;
+}
+
+
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background: #080808;
+    background: #050505;
     color: white;
     text-align: center;
 }
 
 
-header {
-    background: #111;
-    padding: 40px 20px;
-    border-bottom: 3px solid red;
+
+.hero {
+    padding: 80px 20px;
+    background: linear-gradient(#111, #000);
+    border-bottom: 4px solid red;
 }
 
 
-header h1 {
+.hero h1 {
+    font-size: 55px;
     color: gold;
-    font-size: 40px;
-    letter-spacing: 3px;
+    letter-spacing: 5px;
 }
 
 
-header p {
-    font-size: 18px;
+.hero p {
+    font-size: 20px;
 }
 
 
 
 nav {
-    background: black;
-    padding: 15px;
+    background: #000;
+    padding: 20px;
+    position: sticky;
+    top: 0;
 }
 
 
 nav a {
-    color: red;
+    color: white;
     text-decoration: none;
-    margin: 10px;
+    margin: 15px;
     font-weight: bold;
 }
 
 
-
-.welcome {
-    padding: 40px 20px;
+nav a:hover {
+    color: red;
 }
 
 
-.welcome h2 {
+
+
+.intro {
+    padding: 60px 20px;
+}
+
+
+.intro h2,
+.live h2,
+.programs h2,
+.news h2 {
     color: gold;
+    font-size: 35px;
 }
+
 
 
 
@@ -57,29 +76,55 @@ button {
     background: red;
     color: white;
     border: none;
-    padding: 15px 30px;
+    padding: 16px 35px;
     border-radius: 30px;
-    font-size: 16px;
+    font-size: 17px;
+    cursor: pointer;
 }
+
+
+button:hover {
+    background: darkred;
+}
+
+
 
 
 
 .stations {
     display: flex;
     justify-content: center;
-    gap: 30px;
+    gap: 40px;
     flex-wrap: wrap;
-    padding: 40px 20px;
+    padding: 50px 20px;
 }
 
 
 
+
 .station {
-    background: #151515;
-    border: 2px solid red;
-    border-radius: 20px;
-    padding: 25px;
-    width: 300px;
+    background: #111;
+    width: 350px;
+    padding: 35px;
+    border-radius: 25px;
+    border: 3px solid red;
+    box-shadow: 0 0 20px #000;
+}
+
+
+
+.logo-placeholder {
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    border-radius: 50%;
+    background: red;
+    border: 5px solid gold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-weight: bold;
 }
 
 
@@ -90,27 +135,49 @@ button {
 
 
 
-.station p {
-    font-size: 17px;
+.station h3 {
+    color: red;
 }
 
 
 
-.latest {
+
+.live {
+    padding: 60px 20px;
     background: #111;
-    padding: 30px;
 }
 
 
 
-.latest h2 {
-    color: gold;
+.programs {
+    padding: 50px 20px;
+}
+
+
+
+
+.program-box {
+    background: #111;
+    margin: auto;
+    max-width: 500px;
+    padding: 30px;
+    border-radius: 20px;
+    border: 2px solid gold;
+    font-size: 20px;
+}
+
+
+
+
+
+.news {
+    padding: 50px 20px;
 }
 
 
 
 footer {
     background: black;
-    padding: 20px;
+    padding: 40px 20px;
     color: #aaa;
-  }
+}
