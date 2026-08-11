@@ -100,3 +100,16 @@ nav a {
     margin: 20px;
     font-weight: bold;
 }
+nav {
+    background: black !important;
+    padding: 35px !important;
+}
+
+
+nav a {
+    color: gold !important;
+    font-size: 40px !important;
+    margin: 25px !important;
+    font-weight: bold !important;
+    display: inline-block;
+}
